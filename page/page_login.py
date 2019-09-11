@@ -11,7 +11,7 @@ from base.base import Base
 
 class PageLogin(Base):
 
-    # 输入用户名
+    # 输入用户名   A查询
     def page_input_username(self, username):
         # 调用 输入方法
         self.base_input(page.login_username, username)
